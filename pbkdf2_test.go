@@ -233,7 +233,7 @@ func TestKey(t *testing.T) {
 			v := v
 			t.Run(v.n, func(t *testing.T) {
 				t.Parallel()
-				expected, err := hex.DecodeString(strings.ReplaceAll(v.o, " ", ""))
+				expected, err := hex.DecodeString(strings.Replace(v.o, " ", "", -1))
 				if err != nil {
 					t.Fatalf("error decoding expected output: %v", err)
 				}
