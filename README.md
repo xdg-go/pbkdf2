@@ -6,7 +6,8 @@
 
 ## Description
 
-Package pbkdf provides password-based key derivation based on RFC 8018.
+Package pbkdf2 provides password-based key derivation based on
+[RFC 8018](https://tools.ietf.org/html/rfc8018).
 
 ## Copyright and License
 
